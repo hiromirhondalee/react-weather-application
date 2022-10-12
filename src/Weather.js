@@ -21,13 +21,23 @@ export default function Weather() {
       <div className="row">
         <div className="col-6">
           <ul>
-            <li>💦 Humidity:</li>
+            <li>
+              <span role="img" aria-label="humidity">
+                💦
+              </span>{" "}
+              Humidity:
+            </li>
             <li>88%</li>
           </ul>
         </div>
         <div className="col-6">
           <ul>
-            <li>💨 Wind:</li>
+            <li>
+              <span role="img" aria-label="wind">
+                💨{" "}
+              </span>
+              Wind:
+            </li>
             <li>8 km/h</li>
           </ul>
         </div>
