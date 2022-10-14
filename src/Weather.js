@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import LoadingIcons from "react-loading-icons";
 
 import "./Weather.css";
 
@@ -17,6 +18,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
+      humidity: response.data.main.humidity,
     });
   }
 
@@ -54,6 +56,10 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Loading...";
+    return (
+      <div className="m-4">
+        <LoadingIcons.ThreeDots stroke="#8facca" />
+      </div>
+    );
   }
 }
