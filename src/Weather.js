@@ -15,9 +15,7 @@ export default function Weather(props) {
       date: new Date(response.data.dt * 1000),
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
-      iconUrl:
-        "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/3155576/clouds-clipart-md.png",
-      humidity: response.data.main.humidity,
+      icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
     });
   }

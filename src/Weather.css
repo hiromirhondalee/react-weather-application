@@ -19,9 +19,8 @@
   margin-bottom: 0px;
 }
 
-.Weather img {
-  width: 150px;
-  margin: 15px;
+.Weather canvas {
+  margin-top: 15px;
 }
 .Weather form {
   border: 2px solid #888888;
