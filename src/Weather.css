@@ -39,6 +39,9 @@
   opacity: 0.25;
 }
 
+.Weather a {
+  text-decoration: none;
+}
 .Weather .weather-display {
   border: 2px solid #888888;
   border-radius: 20px;
