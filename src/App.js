@@ -23,15 +23,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on GitHub
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://fancy-sable-a3b4af.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            hosted on Netlify
+            open-sourced on GitHub.
           </a>
         </footer>
       </div>
