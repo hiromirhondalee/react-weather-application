@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
         </li>
         <li className="text-capitalize">{props.data.description}</li>
         <li>
-          <WeatherIcon iconCode={props.data.icon} />
+          <WeatherIcon iconCode={props.data.icon} size={150}/>
         </li>
         <li className="main-temperature">
           <WeatherTemperature celsius={props.data.temperature} />

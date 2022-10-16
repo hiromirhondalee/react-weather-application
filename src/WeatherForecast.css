@@ -1,0 +1,21 @@
+.WeatherForecast {
+  text-align: center;
+  color: #4d4949;
+}
+
+.WeatherForecast canvas {
+  margin: 0px auto;
+  margin-top: 5px;
+}
+
+.WeatherForecast-min-temp {
+  color: #888888;
+  margin-left: 5px;
+}
+
+.WeatherForecast-max-temp {
+  font-weight: 500;
+}
+.WeatherForecast .units {
+  font-size: 16px;
+}

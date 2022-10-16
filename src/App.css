@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 20px;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-cloud-background_41066-1948.jpg?w=1800&t=st=1665821766~exp=1665822366~hmac=cd7b5737ab49e2acce3438303726edee56aa25d87b9f0f006b035bc0e01772e1");
 }
 
 .App footer {

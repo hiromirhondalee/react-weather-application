@@ -1,7 +1,8 @@
 .Weather {
   text-align: center;
   display: block;
-  margin: 10px auto;
+  margin: 0px auto;
+  padding-top: 15px;
   max-width: 600px;
 }
 
@@ -23,12 +24,14 @@
   margin-top: 15px;
 }
 .Weather form {
-  border: 2px solid #888888;
+  border: 2px solid white;
+    box-shadow: 4px 4px 5px rgb(135, 134, 134);
   border-radius: 20px;
   max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
+  background-color: white;
 }
 
 .Weather hr {
@@ -43,7 +46,8 @@
   text-decoration: none;
 }
 .Weather .weather-display {
-  border: 2px solid #888888;
+  border: 2px solid white;
+  box-shadow: 4px 4px 5px rgb(135, 134, 134);
   border-radius: 20px;
   display: block;
   font-size: 18px;
@@ -51,6 +55,7 @@
   margin: 0 auto;
   padding: 15px;
   text-align: center;
+  background-color: white;
 }
 
 .Weather .main-temperature {
@@ -67,4 +72,18 @@
 .Weather .label {
   font-size: 20px;
   color: #4d4949;
+}
+
+.Weather .weather-forecast-display {
+  border: 2px solid white;
+    box-shadow: 4px 4px 5px rgb(135, 134, 134);
+  border-radius: 20px;
+  display: block;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
 }
