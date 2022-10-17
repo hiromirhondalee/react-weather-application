@@ -11,8 +11,8 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    console.log(response);
     setWeatherData({
+  
       ready: true,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
@@ -56,7 +56,7 @@ export default function Weather(props) {
           <WeatherInfo data={weatherData} />
         </div>
         <div className="weather-forecast-display mt-2">
-          <WeatherForecast coordinates={weatherData.coordinates} />
+          <WeatherForecast coordinates={weatherData.coordinates} units={weatherData.units}/>
         </div>
       </div>
     );
